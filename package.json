@@ -1,0 +1,29 @@
+{
+  "name": "chiiz",
+  "version": "1.0.0",
+  "description": "CHIIIIIIIIIIIIIIIIZ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shio7/CHIIZ.git"
+  },
+  "author": "Shio",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Shio7/CHIIZ/issues"
+  },
+  "homepage": "https://github.com/Shio7/CHIIZ#readme",
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "com.shio.chiiz",
+  }
+}
