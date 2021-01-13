@@ -24,6 +24,6 @@
     "electron-builder": "^22.9.1"
   },
   "build": {
-    "appId": "com.shio.chiiz",
+    "appId": "com.shio.chiiz"
   }
 }
