@@ -1,7 +1,9 @@
 {
   "name": "chiiz",
   "version": "0.1.0",
+  "description": "CHIIZ will help you decode your files with several options.",
   "private": true,
+  "author": "Shio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -16,7 +18,7 @@
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
-  "main": "public/main.js",
+  "main": "public/electron.js",
   "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
@@ -25,7 +27,7 @@
     "eject": "react-scripts eject",
     "react-start": "set BROWSER=none && yarn start",
     "electron-start": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
-    "electron-pack": "yarn build && electron-builder build -c.extraMetadata.main=build/Main.js"
+    "electron-pack": "yarn build && electron-builder build -c.extraMetadata.main=build/electron.js"
   },
   "eslintConfig": {
     "extends": [
