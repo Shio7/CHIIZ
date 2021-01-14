@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as themeConf from './themming/theme';
+import * as themeConf from './theming/theme';
 import styled, { ThemeProvider } from 'styled-components';
-import { useTheme } from './themming/thememanager';
+import { useTheme } from './theming/thememanager';
 
 const App: React.FC = () => {
 
