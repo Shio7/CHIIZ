@@ -16,5 +16,6 @@
     <img src="https://img.shields.io/github/license/Shio7/CHIIZ?style=for-the-badge&logo=appveyor"
          alt="Imgshields">  
   </a>
+[![Downloads](https://img.shields.io/github/downloads/Shio7/CHIIZ/total.svg?style=for-the-badge)](https://github.com/Shio7/CHIIZ/releases)
 <hr>
 CHIIZ will help you decode your files with several options.
