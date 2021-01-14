@@ -14,4 +14,6 @@
   </a>
   <a href="https://github.com/Shio7/CHIIZ">
     <img src="https://img.shields.io/github/license/Shio7/CHIIZ?style=for-the-badge&logo=appveyor"
-         alt="Imgshields">
+         alt="Imgshields">  
+<hr>
+CHIIZ will help you decode your files with several options.
