@@ -1,8 +1,7 @@
-# CHIIZ
 <div align="center">
   <h1>CHIIZ</h1>
   
-  [![Downloads](https://img.shields.io/github/issues/Shio7/CHIIZ?style=for-the-badge)](https://github.com/Shio7/CHIIZ/issues)    
+  [![Downloads](https://img.shields.io/github/issues/Shio7/CHIIZ?style=for-the-badge)](https://github.com/Shio7/CHIIZ/issues)
   [![Downloads](https://img.shields.io/github/downloads/Shio7/CHIIZ/total.svg?style=for-the-badge)](https://github.com/Shio7/CHIIZ/releases)    
   
   </div>
