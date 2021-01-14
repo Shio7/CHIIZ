@@ -4,7 +4,7 @@
   [![Issues](https://img.shields.io/github/issues/Shio7/CHIIZ?style=for-the-badge)](https://github.com/Shio7/CHIIZ/issues)
   [![Stars](https://img.shields.io/github/stars/Shio7/CHIIZ?style=for-the-badge)](https://github.com/Shio7/CHIIZ)
   [![Forks](https://img.shields.io/github/forks/Shio7/CHIIZ?style=for-the-badge)](https://github.com/Shio7/CHIIZ/forks)
-  [![Downloads](https://img.shields.io/github/downloads/Shio7/CHIIZ?style=for-the-badge)](https://github.com/Shio7/CHIIZ/releases)
+  [![Downloads](https://img.shields.io/github/downloads/Shio7/CHIIZ/total?style=for-the-badge)](https://github.com/Shio7/CHIIZ/releases)
   
   </div>
   <a href="https://github.com/Shio7/CHIIZ">
