@@ -1,52 +1,52 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import * as themeConf from './theming/theme';
-import styled, { ThemeProvider } from 'styled-components';
-import { useTheme } from './theming/thememanager';
 
-const App: React.FC = () => {
+import {Navigation} from 'react-minimal-side-navigation';
+import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
 
-  const theme = useTheme();
-
-  const Wrapper = styled.div`
-    background-color: ${themeConf.backgroundColor};
-    color: ${themeConf.textColor};
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-  `;
-
-  const Button = styled.button`
-    background: ${themeConf.buttonBackgroundColor};
-    border: none;
-    border-radius: 0.3em;
-    box-shadow: none;
-    color: ${themeConf.buttonTextColor};
-    cursor: pointer;
-    font-size: 1em;
-    padding: 0.5em 1em;
-  `;
-
-  return (
-    <ThemeProvider theme={{ mode: theme.mode }}>
-      <Wrapper>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <p>
-          <Button onClick={() => theme.toggle()}>
-            {theme.mode === 'dark' ? "Switch to Light Mode" : "Switch to Dark Mode"}
-          </Button>
-        </p>
-      </Wrapper>
-    </ThemeProvider>
-  );
+function App() {
+    return (
+        <>
+          <Navigation
+              // you can use your own router's api to get pathname
+              activeItemId="/management/members"
+              onSelect={({itemId}) => {
+                // maybe push to the route
+              }}
+              items={[
+                {
+                  title: 'Dashboard',
+                  itemId: '/dashboard',
+                  // you can use your own custom Icon component as well
+                  // icon is optional
+                },
+                {
+                  title: 'Management',
+                  itemId: '/management',
+                  subNav: [
+                    {
+                      title: 'Projects',
+                      itemId: '/management/projects',
+                    },
+                    {
+                      title: 'Members',
+                      itemId: '/management/members',
+                    },
+                  ],
+                },
+                {
+                  title: 'Another Item',
+                  itemId: '/another',
+                  subNav: [
+                    {
+                      title: 'Teams',
+                      itemId: '/management/teams',
+                    },
+                  ],
+                },
+              ]}
+            />
+        </>
+      );
 }
 
 export default App;

@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {ThemeManager} from './theming/thememanager';
 
 ReactDOM.render(
-  <ThemeManager>
+  <React.StrictMode>
     <App />
-  </ThemeManager>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
