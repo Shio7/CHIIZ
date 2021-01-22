@@ -11,11 +11,8 @@ const Container = styled.div`
 const Menu = () => {
     return (
         <Container>
-            <MenuLink title="Home" icon={'home'}/>
             <MenuLink title="Deposits" icon={'file-multiple'} active />
-            <MenuLink title="Offers" icon={'gift'}/>
-            <MenuLink title="Payments" icon={'bank'}/>
-            <MenuLink title="Settings" icon={'cog'} />
+            <MenuLink title="Info" icon={'cog'} />
         </Container>
     )
 }
